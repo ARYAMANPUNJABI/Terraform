@@ -1,7 +1,7 @@
 provider "aws" {
 region= "ap-south-1"
 TF_VAR "${var.TF_VAR_AWS_ACCESS_KEY_ID}"
-TF_VAR "${var.TF_VAR_AWS_SECRET_ACCESS_KEY }").
+TF_VAR "${var.TF_VAR_AWS_SECRET_ACCESS_KEY }"
 }
  module "web" {
     source= "./modules/webmodule/"
